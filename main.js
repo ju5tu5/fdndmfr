@@ -14,7 +14,7 @@ fetch('https://tribe.api.fdnd.nl/v1/list')
         // console.log('filter', student.memberName[0])
         return student.memberName[0] === 'K'
       })
-      // Map the data to HTML element
+      // Map the data to HTML elements
       .map((student) => {
         // Make a new article
         let article = document.createElement('article')
